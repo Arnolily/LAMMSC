@@ -67,7 +67,6 @@ class G_Net(nn.Module):
         z = self.decoder(z)
         return z
 
-
 # Define the Discriminator Network
 class D_Net(nn.Module):
     def __init__(self, indim=128):

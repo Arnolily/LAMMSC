@@ -158,11 +158,11 @@ inference_tester = inference_tester
 inference_tester = inference_tester.eval()
 
 if __name__ == '__main__':
-    img_dataset = r"E:\pengyubo\datasets\DeepJSCC_res"
+    img_dataset = r"datasets\images"
     img2text(img_dataset)
-    audio_dataset = r"E:\pengyubo\datasets\Fairseq_res"
+    audio_dataset = r"datasets\audio"
     audio2text(audio_dataset)
-    video_dataset = r"E:\pengyubo\datasets\MMA_test"
+    video_dataset = r"datasets\video"
     video2text(video_dataset)
 
 

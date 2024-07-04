@@ -21,7 +21,7 @@ class params():
     # Parameters for model configuration and training
     checkpoint_path = "checkpoints"  # Path to save model checkpoints
     device = "cuda"  # Device to use for computation (GPU)
-    dataset = r"E:\pengyubo\datasets\UCF100"  # Path to the dataset
+    dataset = r"datasets\UCF100"  # Path to the dataset
     log_path = "logs"  # Path to save logs
     epoch = 5  # Number of training epochs
     lr = 1e-3  # Learning rate

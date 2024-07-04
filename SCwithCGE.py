@@ -13,7 +13,7 @@ class params():
     # Configuration parameters for training and testing
     checkpoint_path = "checkpoints"  # Path to save model checkpoints
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # Use GPU if available
-    dataset = r"E:\datasets\VOC2012_img2text"  # Path to dataset
+    dataset = r"datasets\VOC2012_img2text"  # Path to dataset
     log_path = "logs"  # Path to save logs
     epoch = 20  # Number of training epochs
     lr = 1e-3  # Learning rate
@@ -27,7 +27,6 @@ class params():
     num_layers = 2  # Number of layers in the transformer
     use_CGE = True  # Whether to use channel gain estimation (CGE)
     max_length = 30  # Maximum sequence length for tokenization
-
 
 def same_seeds(seed):
     # Set random seeds for reproducibility
