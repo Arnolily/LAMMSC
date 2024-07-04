@@ -149,6 +149,7 @@ def text2audio(prompts):
     # Audio(audio_wave.squeeze(), rate=16000)
 
 # model weights path
+# These weights can be downloaded from https://github.com/microsoft/i-Code/
 model_load_paths = ['CoDi_encoders.pth', 'CoDi_text_diffuser.pth', 'CoDi_audio_diffuser_m.pth',
                         'CoDi_video_diffuser_8frames.pth']
 # load CoDi model
